@@ -1,0 +1,37 @@
+.x-spacing {
+  padding: 3rem 8rem;
+}
+.secondary-color {
+  color: #c6aac6;
+}
+
+// header section
+section.header-section div p {
+  color: #fff;
+}
+p.coming-soon {
+  color: #8f618f;
+}
+div.intro-section {
+  background-color: #2c0f29;
+  color: #fff;
+}
+section.header-section nav a {
+  font-size: 11px;
+  color: #fff;
+}
+div.background-img {
+  background-image: url('./assets/background.png');
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+div.be-first {
+  background: linear-gradient(
+    90deg,
+    #8e608e 28.16%,
+    #402640 67.82%,
+    #371a34 83.75%
+  );
+  height: 500px;
+  width: 100%;
+}
