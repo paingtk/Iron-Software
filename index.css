@@ -186,6 +186,19 @@ p.coming-soon {
   border-radius: 122px;
   background: rgba(23, 6, 23, 0.8);
 }
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer.input-group,
+.footer.input-group > .form-control.signup-input {
+  width: 600px;
+  height: 56px;
+}
+.footer.input-group > .rounded-btn {
+  height: 50px;
+}
 
 @media (min-width: 1400px) {
   .container {
