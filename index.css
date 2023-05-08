@@ -10,12 +10,17 @@
   font-family: 'Gotham-Bold';
   src: url(./assets/fonts/Gotham-Bold.woff2);
 }
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url(./assets/fonts/Gotham-Black.woff2);
+}
 :root {
   --purple-dark-1: #2c0f29;
   --purple-dark-2: #431f43;
   --purple-dark-3: rgba(23, 6, 23, 0.3);
   --purple-light-1: #c6aac6;
   --purple-light-2: #8f618f;
+  --purple-light-3: #4c344c;
   --gradient-bg-color: linear-gradient(
     90deg,
     #8e608e 28.16%,
@@ -33,19 +38,19 @@ p {
   color: var(--primary-font-color);
 }
 h1 {
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Black';
   font-size: 50px;
   font-weight: 900;
   line-height: 54px;
 }
 h2 {
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Black';
   font-size: 40px;
   font-weight: 900;
   line-height: 44px;
 }
 h3 {
-  font-family: 'Gotham-Bold';
+  font-family: 'Gotham-Black';
   font-size: 30px;
   font-weight: 900;
   line-height: 34px;
@@ -75,6 +80,9 @@ p {
 }
 .primary-bg-color {
   background-color: var(--purple-dark-1);
+}
+.purple-light-bg {
+  background-color: var(--purple-light-3);
 }
 .gradient-bg-1 {
   background: var(--gradient-bg-color);
