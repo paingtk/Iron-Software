@@ -18,10 +18,11 @@
   --purple-dark-1: #2c0f29;
   --purple-dark-2: #431f43;
   --purple-dark-3: rgba(23, 6, 23, 0.3);
+  --purple-dark-4: #331433;
   --purple-light-1: #c6aac6;
   --purple-light-2: #8f618f;
   --purple-light-3: #4c344c;
-  --gradient-bg-color: linear-gradient(
+  --gradient-bg-1: linear-gradient(
     90deg,
     #8e608e 28.16%,
     #402640 67.82%,
@@ -75,17 +76,29 @@ p {
 .primary-font-color {
   color: var(--primary-font-color);
 }
-.secondary-font-color {
+.purple-light-font1 {
   color: var(--purple-light-1);
+}
+.purple-light-2 {
+  color: var(--purple-light-2);
+}
+.purple-dark-4 {
+  color: var(--purple-dark-4);
 }
 .primary-bg-color {
   background-color: var(--purple-dark-1);
 }
-.purple-light-bg {
+.purple-light-1 {
+  background-color: var(--purple-light-1);
+}
+.purple-light-3 {
   background-color: var(--purple-light-3);
 }
+.purple-dark-bg4 {
+  background-color: var(--purple-dark-4);
+}
 .gradient-bg-1 {
-  background: var(--gradient-bg-color);
+  background: var(--gradient-bg-1);
 }
 .gradient-bg-2 {
   background: var(--purple-dark-3);
@@ -147,11 +160,9 @@ p.coming-soon {
 }
 .badge {
   font-family: 'Gotham-Medium';
-  background-color: var(--purple-light-1);
   font-size: 14px;
   font-weight: 700;
   line-height: 28px;
-  color: var(--purple-light-2);
   margin-right: 10px;
   padding: 2px 0px;
   width: 146px;
@@ -163,6 +174,17 @@ p.coming-soon {
 .coming-soon-badge {
   top: -62px;
   right: -77px;
+}
+
+/* Early Access */
+.ironpdf-card {
+  display: flex;
+  justify-content: space-around;
+  padding: 23px 30px;
+  height: 88px;
+  border: 3px solid var(--purple-dark-2);
+  border-radius: 122px;
+  background: rgba(23, 6, 23, 0.8);
 }
 
 @media (min-width: 1400px) {
