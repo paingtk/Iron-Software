@@ -67,7 +67,6 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  margin: 0;
 }
 .bold-font {
   font-family: 'GOtham-Bold';
@@ -105,6 +104,7 @@ p {
 }
 
 /* Header Section */
+
 p.coming-soon {
   color: var(--purple-light-2);
 }
@@ -203,5 +203,45 @@ p.coming-soon {
 @media (min-width: 1400px) {
   .container {
     max-width: 1200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .cpp-img {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .input-group {
+    width: 100%;
+  }
+  .input-group > .form-control.signup-input {
+    width: 100%;
+  }
+  .footer.input-group,
+  .footer.input-group > .form-control.signup-input {
+    width: 100%;
+  }
+  .coming-soon-badge {
+    width: 88px;
+    height: 88px;
+    top: -38px;
+    right: -54px;
   }
 }
